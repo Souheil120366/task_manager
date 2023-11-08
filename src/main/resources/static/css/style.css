@@ -1,0 +1,76 @@
+.custom-container {
+	background-image: url('/images/pexels-ylanite-koppens-1906440.jpg');
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            height: 100vh; /* Set the height of the container to 100% of the viewport height */
+            color: white; /* Set text color to contrast with the background */
+            text-align: center; /* Center the content horizontally */
+            padding: 150px; /* Add padding inside the container */
+}
+
+.green-icon {
+        color: green;
+    }
+
+.purple-icon {
+        color: purple;
+    }
+    
+.red-icon {
+        color: red;
+ }
+
+.custom-icon {
+    font-size: 150%; /* 150% of the parent element's font size */
+}
+
+h1 {
+	color: blue;
+}
+
+.custom-width {
+	max-width: 800px; /* Adjust this value as needed */
+}
+
+.italic-text {
+	font-style: italic;
+}
+
+.show-width {
+	max-width: 380px;
+}
+
+.show-bg-color {
+	background-color: #9FC5F8;
+}
+
+
+
+/* Style for the button */
+.submit-button {
+	text-decoration: none; /* Remove the default underline */
+	transition: text-decoration 0.2s; /* Add a smooth transition effect */
+}
+
+/* Style for the button when hovered */
+.submit-button:hover {
+	text-decoration: underline; /* Underline the text on hover */
+}
+
+@media (min-width: 768px) {
+    .setWidth {
+        max-width: 200px; /* Set a specific width for larger screens */
+    }
+}
+
+.truncate-text div {
+  white-space: nowrap;      
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  width: inherit;
+    }
+ 
+
